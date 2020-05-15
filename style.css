@@ -1,0 +1,202 @@
+.container{
+  background-color: mediumseagreen;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.container .keep{
+  position: relative;
+}
+.container .keep .goal{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  border: 8px solid white;
+  border-bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: 50px auto;
+}
+.container .keep .goal .grid-vertical:nth-child(1){
+  position: absolute;
+   width: 200px;
+   height: 2px;
+   background-color: white;
+   top:15%;
+}
+.container .keep .goal .grid-vertical:nth-child(2){
+  position: absolute;
+   width: 200px;
+   height: 2px;
+   background-color: white;
+   top:30%;
+}
+.container .keep .goal .grid-vertical:nth-child(3){
+  position: absolute;
+   width: 200px;
+   height: 2px;
+   background-color: white;
+   top:45%;
+}
+.container .keep .goal .grid-vertical:nth-child(4){
+  position: absolute;
+   width: 200px;
+   height: 2px;
+   background-color: white;
+   top:60%;
+}
+.container .keep .goal .grid-vertical:nth-child(5){
+  position: absolute;
+   width: 200px;
+   height: 2px;
+   background-color: white;
+   top:75%;
+}
+.container .keep .goal .grid-vertical:nth-child(6){
+  position: absolute;
+   width: 200px;
+   height: 2px;
+   background-color: white;
+   top:90%;
+}
+
+.container .keep .goal .grid-horizontal:nth-child(7){
+  position: absolute;
+   width: 2px;
+   height: 90px;
+   background-color: white;
+   left:20%;
+}
+.container .keep .goal .grid-horizontal:nth-child(8){
+  position: absolute;
+   width: 2px;
+   height: 90px;
+   background-color: white;
+   left:40%;
+}
+.container .keep .goal .grid-horizontal:nth-child(9){
+  position: absolute;
+   width: 2px;
+   height: 90px;
+   background-color: white;
+   left:60%;
+}
+.container .keep .goal .grid-horizontal:nth-child(10){
+  position: absolute;
+   width: 2px;
+   height: 90px;
+   background-color: white;
+   left:80%;
+}
+
+
+/* goalkeeper */
+
+.container .keep .goalkeeper{
+  background-color: black;
+  position: relative;
+  /* animation: keeperMove 2s infinite forwards; */
+}
+.container .keep .goalkeeper .head{
+  position: absolute;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  left: 49.3%;
+  top: 90px;
+}
+.container .keep .goalkeeper .hand-left{
+  position: absolute;
+  background-color: black;
+  width: 20px;
+  height: 5px;
+  border-radius: 10px;
+  left: 48.4%;
+  top: 110px;
+}
+.container .keep .goalkeeper .hand-right{
+  position: absolute;
+  background-color: black;
+  width: 20px;
+  height: 5px;
+  border-radius: 10px;
+  left: 50.2%;
+  top: 110px;
+}
+
+.container .keep .goalkeeper .body{
+  position: absolute;
+  background-color: black;
+  width: 10px;
+  height: 35px;
+  border-radius: 10px;
+  left: 49.6%;
+  top: 108px;
+}
+.container .keep .goalkeeper .foot-left{
+  position: absolute;
+  background-color: black;
+  width: 6px;
+  height: 25px;
+  border-radius: 10px;
+  left: 49.5%;
+  top: 138px;
+  transform-origin: top;
+  transform: rotate(10deg)
+}
+.container .keep .goalkeeper .foot-right{
+  position: absolute;
+  background-color: black;
+  width: 6px;
+  height: 25px;
+  border-radius: 10px;
+  left: 50.05%;
+  top: 138px;
+  transform-origin: top;
+  transform: rotate(-10deg)
+}
+
+/* ball */
+.container .attack{
+  position: relative;
+}
+.container .attack .ball{
+  position: absolute;
+  background-color: gold;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  left: 49.3%;
+  top: 500px;
+  /* animation: ballMove 10s infinite forwards; */
+}
+
+/* di chuyen */
+
+/* @keyframes keeperMove{
+  0%{
+    left: -90px;
+  }
+  50%{
+    left: 90px;
+  }
+  100%{
+    left: -90px;
+  }
+}
+
+@keyframes ballMove{
+  0%{
+    left: 40%;
+  }
+  50%{
+    left: 58.3%;
+  }
+  100%{
+    left: 40%;
+  }
+} */
