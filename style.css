@@ -96,8 +96,7 @@
 /* goalkeeper */
 
 .container .keep .goalkeeper{
-  background-color: black;
-  position: relative;
+  position: absolute;
   /* animation: keeperMove 2s infinite forwards; */
 }
 .container .keep .goalkeeper .head{
