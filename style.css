@@ -97,7 +97,6 @@
 
 .container .keep .goalkeeper{
   position: absolute;
-  /* border: 1px solid black; */
   width: 60px;
   height: 80px;
   left: 0;
@@ -185,23 +184,45 @@
   height: 25px;
   border-radius: 50%;
   left: 49.3%;
-  top: 500px;
-  /* animation: ballMove 10s infinite forwards; */
+  top: 400px;
 }
 
 /* di chuyen */
 
-/* @keyframes keeperMove{
+@keyframes keeperMoveLeft{
   0%{
-    left: -90px;
+    left: 0;
   }
   50%{
-    left: 90px;
+    left: -50%;
   }
   100%{
-    left: -90px;
+    left: 0;
   }
 }
+@keyframes keeperMoveRight{
+  0%{
+    left: 0;
+  }
+  50%{
+    left: 50%;
+  }
+  100%{
+    left: 0;
+  }
+}
+@keyframes keeperMoveDown{
+  0%{
+    top: 0;
+  }
+  50%{
+    top: 20px;
+  }
+  100%{
+    top: 0;
+  }
+}
+
 
 @keyframes ballMove{
   0%{
@@ -213,4 +234,4 @@
   100%{
     left: 40%;
   }
-} */
+}
