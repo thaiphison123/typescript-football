@@ -97,14 +97,14 @@
 
 .container .keep .goalkeeper{
   position: absolute;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 60px;
   height: 80px;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  margin: 80px auto;
+  margin: 85px auto;
 }
 .container .keep .goalkeeper .head{
   position: absolute;
@@ -112,26 +112,11 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  left: 49.3%;
-  top: 90px;
-}
-.container .keep .goalkeeper .hand-left{
-  position: absolute;
-  background-color: black;
-  width: 20px;
-  height: 5px;
-  border-radius: 10px;
-  left: 48.4%;
-  top: 110px;
-}
-.container .keep .goalkeeper .hand-right{
-  position: absolute;
-  background-color: black;
-  width: 20px;
-  height: 5px;
-  border-radius: 10px;
-  left: 50.2%;
-  top: 110px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom:0;
+  margin: 0 auto;
 }
 
 .container .keep .goalkeeper .body{
@@ -140,30 +125,53 @@
   width: 10px;
   height: 35px;
   border-radius: 10px;
-  left: 49.6%;
-  top: 108px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom:0;
+  margin: 20px auto;
 }
+
+.container .keep .goalkeeper .hand{
+  position: absolute;
+  background-color: black;
+  width: 50px;
+  height: 5px;
+  border-radius: 10px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom:0;
+  margin: 22px auto;
+}
+
 .container .keep .goalkeeper .foot-left{
   position: absolute;
   background-color: black;
-  width: 6px;
-  height: 25px;
+  width: 7px;
+  height: 30px;
   border-radius: 10px;
-  left: 49.5%;
-  top: 138px;
+  left: 0;
+  top: 0;
+  right: 5px;
+  bottom:0;
+  margin: 52px auto;
   transform-origin: top;
-  transform: rotate(10deg)
+  transform: rotate(15deg)
 }
 .container .keep .goalkeeper .foot-right{
   position: absolute;
   background-color: black;
-  width: 6px;
-  height: 25px;
+  width: 7px;
+  height: 30px;
   border-radius: 10px;
-  left: 50.05%;
-  top: 138px;
+  left: 5px;
+  top: 0;
+  right: 0;
+  bottom:0;
+  margin: 52px auto;
   transform-origin: top;
-  transform: rotate(-10deg)
+  transform: rotate(-15deg)
 }
 
 /* ball */
