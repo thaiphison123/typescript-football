@@ -19,31 +19,31 @@ document.addEventListener('keydown', function(event){
   if(char == 'A' || char == 'S' || char == 'D'){
     if(char == 'A'){
       psBall = 0;
-      ballMove.style.left = '30%';
-      ballMove.style.top = '85px';
+      ballMove.style.left = '-150px';
+      ballMove.style.top = '-300px';
       ballMove.style.transition = '0.5s';
     }
     else if(char == 'S'){
       psBall = 1;
-      ballMove.style.left = '47.3%';
-      ballMove.style.top = '105px';
+      ballMove.style.left = '0';
+      ballMove.style.top = '-280px';
       ballMove.style.transition = '0.5s';
     }
     else if(char == 'D'){
       psBall = 2;
-      ballMove.style.left = '65%';
-      ballMove.style.top = '85px';
+      ballMove.style.left = '150px';
+      ballMove.style.top = '-300px';
       ballMove.style.transition = '0.5s';
     }
   }
 
 
   if(psKeeper == 0){
-    keeperMove.style.left = '-35%';
+    keeperMove.style.left = '-150px';
     keeperMove.style.transition = '0.5s ease-out';
   }
   else if(psKeeper == 2){
-    keeperMove.style.left = '35%';
+    keeperMove.style.left = '150px';
     keeperMove.style.transition = '0.5s ease-out';
   }
   else{
