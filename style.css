@@ -97,7 +97,14 @@
 
 .container .keep .goalkeeper{
   position: absolute;
-  /* animation: keeperMove 2s infinite forwards; */
+  border: 1px solid black;
+  width: 60px;
+  height: 80px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: 80px auto;
 }
 .container .keep .goalkeeper .head{
   position: absolute;
