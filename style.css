@@ -183,7 +183,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  left: 49.3%;
+  left: 47.3%;
   top: 400px;
 }
 
@@ -193,33 +193,33 @@
   0%{
     left: 0;
   }
-  50%{
+  /* 50%{
     left: -50%;
-  }
+  } */
   100%{
-    left: 0;
+    left: -50%;
   }
 }
 @keyframes keeperMoveRight{
   0%{
     left: 0;
   }
-  50%{
+  /* 50%{
     left: 50%;
-  }
+  } */
   100%{
-    left: 0;
+    left: 50%;
   }
 }
 @keyframes keeperMoveDown{
   0%{
     top: 0;
   }
-  50%{
+  /* 50%{
     top: 20px;
-  }
+  } */
   100%{
-    top: 0;
+    top: 20px;
   }
 }
 
