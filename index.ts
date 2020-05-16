@@ -48,18 +48,26 @@ document.addEventListener('keydown', function(event){
   }
   else{
     keeperMove.style.top = '20px';
-    keeperMove.style.transition = '0.25s ease-out';
+    keeperMove.style.transition = '0.5s ease-out';
   }
 
   if(char == 'A' || char == 'S' || char == 'D'){
     setTimeout(function(){
       if(psKeeper == psBall){
         alert("Out!!!")
-        window.location.reload(true);
+        keeperMove.style.left = '0';
+        keeperMove.style.top = '0';
+        ballMove.style.left = '0';
+        ballMove.style.top = '0';
+        // window.location.reload(true);
       }
       else{
         alert("Goal!!");
-        window.location.reload(true);
+        keeperMove.style.left = '0';
+        keeperMove.style.top = '0';
+        ballMove.style.left = '0';
+        ballMove.style.top = '0';
+        // window.location.reload(true);
       }
     },500);
   }

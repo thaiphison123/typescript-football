@@ -179,7 +179,7 @@
 }
 .container .attack .ball{
   position: absolute;
-  background-color: gold;
+  background-color: orange;
   width: 25px;
   height: 25px;
   border-radius: 50%;
