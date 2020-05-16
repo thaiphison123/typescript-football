@@ -3,16 +3,16 @@ import './style.css';
 
 // // Write TypeScript code!
 
-let psBall: number;
 
 document.addEventListener('keydown', function(event){
   
-  let key = event.keyCode;
-  let char = String.fromCharCode(key);
+  let key  :number = event.keyCode;
+  let char : String = String.fromCharCode(key);
 
   let keeperMove = document.getElementById('keeperMove');
   let ballMove = document.getElementById('ballMove');
 
+  let psBall: number;
   let psKeeper : number =  Math.floor(Math.random()*3);
   console.log(psKeeper);
 
