@@ -37,18 +37,19 @@ document.addEventListener('keydown', function(event){
     }
   }
 
-
-  if(psKeeper == 0){
-    keeperMove.style.left = '-150px';
-    keeperMove.style.transition = '0.5s ease-out';
-  }
-  else if(psKeeper == 2){
-    keeperMove.style.left = '150px';
-    keeperMove.style.transition = '0.5s ease-out';
-  }
-  else{
-    keeperMove.style.top = '20px';
-    keeperMove.style.transition = '0.5s ease-out';
+  if(char == 'A' || char == 'S' || char == 'D'){
+    if(psKeeper == 0){
+      keeperMove.style.left = '-150px';
+      keeperMove.style.transition = '0.5s ease-out';
+    }
+    else if(psKeeper == 2){
+      keeperMove.style.left = '150px';
+      keeperMove.style.transition = '0.5s ease-out';
+    }
+    else{
+      keeperMove.style.top = '20px';
+      keeperMove.style.transition = '0.5s ease-out';
+    }
   }
 
   if(char == 'A' || char == 'S' || char == 'D'){
