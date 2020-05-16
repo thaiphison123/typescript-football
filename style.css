@@ -131,17 +131,34 @@
   margin: 20px auto;
 }
 
-.container .keep .goalkeeper .hand{
+.container .keep .goalkeeper .hand-left{
   position: absolute;
   background-color: black;
-  width: 50px;
+  width: 30px;
   height: 5px;
   border-radius: 10px;
-  left: 0;
+  left: -33px;
   top: 0;
   right: 0;
   bottom:0;
   margin: 22px auto;
+  transform-origin: right top;
+  transform: rotate(20deg);
+}
+
+.container .keep .goalkeeper .hand-right{
+  position: absolute;
+  background-color: black;
+  width: 30px;
+  height: 5px;
+  border-radius: 10px;
+  left: 33px;
+  top: 0;
+  right: 0;
+  bottom:0;
+  margin: 22px auto;
+  transform-origin: left top;
+  transform: rotate(-20deg);
 }
 
 .container .keep .goalkeeper .foot-left{
